@@ -1,6 +1,6 @@
-"use strict"; // treat all js code as newer version
+"use strict"; // treat all js code as a newer version
 
-// tc39.es ------> visit
+// https://tc39.es/ecma262/ ------> visit
 // MDN ---------> visit
 
 // alert("Hello") // we are using node js not browser
@@ -17,7 +17,7 @@ console.log(10 / 5); //2
 let name = "Suvrodip";
 let age = 18;
 let isLoggedIn = false;
-// suppose your temperature showing nothing then you dont show it 0 because 0 is also a temtemperature then we use null
+//Suppose your temperature shows nothing then you don't show it as 0 because 0 is also a temperature then we use null
 let state = null;
 console.log("\n" + state); // null
 
@@ -27,7 +27,7 @@ console.log("\n" + state); // null
 // boolean => true/false
 // null => standalone value
 // symbol => unique
-// undifiend =>
+// undefined =>
 
 // object
 
