@@ -31,3 +31,40 @@ console.log("2" === 2);
 console.log(null === 0);
 console.log(undefined === 0);
 console.log("\n");
+
+
+
+// output
+
+/* true
+true
+false
+false
+true
+
+
+true
+false
+
+
+false
+false
+false
+true
+true
+true
+
+
+false
+false
+false
+false
+false
+true
+
+
+true
+false
+false
+false
+*/
