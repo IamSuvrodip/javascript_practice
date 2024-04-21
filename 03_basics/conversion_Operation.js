@@ -41,3 +41,44 @@ let someNumber = 33;
 let stringNumber = String(someNumber);
 console.log(typeof stringNumber); // string
 console.log(stringNumber + "\n"); // 33
+
+
+
+
+// ********************* Operations ************************
+
+let value = 3;
+let negvalue = -value;
+console.log(negvalue + "\n"); // -3
+
+console.log(2 + 2);
+console.log(2 - 2);
+console.log(2 * 2);
+console.log(2 / 2);
+console.log(2 ** 2);
+console.log((2 % 2) + "\n");
+
+let str1 = "hello ";
+let str2 = "suvro";
+let str3 = str1 + str2;
+console.log(str3 + "\n");
+
+console.log("1" + 2);
+console.log(1 + "2");
+console.log("1" + "2");
+console.log("1" + 2 + 2);
+console.log(1 + 2 + "2" + "\n");
+//console.log("*" * 5 + "\n");
+
+let gameCounter = 100;
+gameCounter++;
+++gameCounter;
+console.log(gameCounter);
+++gameCounter;
+console.log(gameCounter);
+
+let gameCounter1 = 100;
+gameCounter1--;
+console.log(gameCounter1);
+--gameCounter1;
+console.log(gameCounter1);
