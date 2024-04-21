@@ -17,7 +17,14 @@ const isLoggedIn = false;
 const outsideTemp = null;
 let userEmail = undefined;
 
-const id = Symbol()
+const id = Symbol("12345");
+const anotherid = Symbol("12345");
+console.log(id === anotherid);
+
+const bigNumber = 54656846849999999999999n;
+console.log(typeof bigNumber);
+const bigNumber1 = 54656846849999999999999;
+console.log(typeof bigNumber1);
 
 // Non primitive
 /* 
@@ -25,3 +32,22 @@ Array
 ***Objects***
 Functions
 */
+
+// arrays
+const heros = ["Ironman", "Hulk", "Thor"];
+
+// objects
+// in second braket all value is object
+{
+  name1: "Suvrodip";
+  age1: 22;
+}
+
+let myObj = {
+  name2: "Dip",
+  age2: 22,
+};
+
+const myFunction = function () {
+  console.log("Suvrodip");
+};
