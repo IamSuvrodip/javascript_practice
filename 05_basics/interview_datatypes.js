@@ -17,9 +17,19 @@ const isLoggedIn = false;
 const outsideTemp = null;
 let userEmail = undefined;
 
+console.log(typeof score);
+console.log(typeof scoreValue);
+console.log(typeof isLoggedIn);
+console.log(typeof outsideTemp);
+console.log(typeof userEmail);
+console.log("\n");
+
 const id = Symbol("12345");
 const anotherid = Symbol("12345");
 console.log(id === anotherid);
+console.log(typeof id);
+console.log(typeof anotherid);
+console.log("\n");
 
 const bigNumber = 54656846849999999999999n;
 console.log(typeof bigNumber);
@@ -51,3 +61,27 @@ let myObj = {
 const myFunction = function () {
   console.log("Suvrodip");
 };
+
+console.log(typeof heros);
+console.log(typeof myFunction);
+console.log(typeof myObj);
+
+/*
+number
+number
+boolean
+object
+undefined
+
+
+false
+symbol
+symbol
+
+
+bigint
+number
+object
+function
+object
+*/
