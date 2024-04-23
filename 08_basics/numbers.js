@@ -27,3 +27,14 @@ undefined
 */
 
 
+console.log("\n");
+
+const hundreds = 1000000;
+console.log(hundreds.toLocaleString("en-IN"));
+console.log(hundreds.toLocaleString("en-US"));
+console.log(hundreds.toLocaleString());// by defult indian types
+/*
+10,00,000
+1,000,000
+10,00,000
+*/
