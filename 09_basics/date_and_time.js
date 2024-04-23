@@ -49,3 +49,18 @@ let myTimeStamp = Date.now();
 console.log(myTimeStamp);
 console.log(new_myCreateDate.getTime());
 console.log("\n");
+
+
+/*
+Mon Jan 23 2023
+23/1/2023, 5:03:45 am
+
+
+14/1/2024, 12:00:00 am
+
+
+1713912337356
+1705170600000
+*/
+
+
