@@ -33,3 +33,19 @@ Wed Apr 24 2024
 
 object
 */
+
+let myCreateDate = new Date(2023, 0, 23, 5, 3, 45);
+console.log(myCreateDate.toDateString());
+//Mon Jan 23 2023
+console.log(myCreateDate.toLocaleString());
+//23/1/2023, 5:03:45 am
+console.log("\n");
+
+let new_myCreateDate = new Date("01-14-2024");
+console.log(new_myCreateDate.toLocaleString());
+console.log("\n");
+
+let myTimeStamp = Date.now();
+console.log(myTimeStamp);
+console.log(new_myCreateDate.getTime());
+console.log("\n");
