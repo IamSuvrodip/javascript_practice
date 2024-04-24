@@ -40,3 +40,40 @@ console.log(myArray3.indexOf(9)); // -1
 console.log(myArray3.indexOf(10)); // 4
 console.log("\n");
 
+
+const myArray4 = myArray3.join();
+console.log(myArray3);
+console.log(typeof myArray3);
+console.log(myArray4);
+console.log(typeof myArray4);
+console.log("\n");
+/*
+[ 1, 2, 3, 4, 10 ]
+object
+1,2,3,4,10
+string
+*/
+
+// slice, splice
+
+console.log("A", myArray3);
+
+const myArray5 = myArray3.slice(1, 3);
+console.log(myArray5);
+console.log("B", myArray3);
+
+console.log("\n");
+
+const myArray6 = myArray3.splice(1, 3);
+console.log("C", myArray3);
+console.log(myArray6);
+/*
+A [ 1, 2, 3, 4, 10 ]
+[ 2, 3 ]
+B [ 1, 2, 3, 4, 10 ]
+
+
+C [ 1, 10 ]
+[ 2, 3, 4 ]
+*/
+
