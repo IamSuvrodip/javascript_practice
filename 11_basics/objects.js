@@ -70,3 +70,15 @@ A
   lastLoginDays: [ 'Monday', 'Saturday' ]
 }
 */
+
+const jsuser2 = {
+  name: "Suvrodip",
+  //"name": "suvrodip",
+  roll: 22,
+  section: "B",
+  isLoggedIn: false,
+  lastLoginDays: ["Monday", "Saturday"],
+};
+jsuser2.greeting = function () {
+  console.log("Hello js user");
+};
