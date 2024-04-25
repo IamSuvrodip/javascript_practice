@@ -82,3 +82,10 @@ const jsuser2 = {
 jsuser2.greeting = function () {
   console.log("Hello js user");
 };
+
+jsuser2.greetingTwo = function () {
+  console.log(`Hello js user,${this.name}`);
+};
+
+console.log(jsuser2.greeting); // [Function (anonymous)]
+console.log(jsuser2.greetingTwo());
