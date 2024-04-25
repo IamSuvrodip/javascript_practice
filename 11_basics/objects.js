@@ -26,3 +26,13 @@ const jsuser1 = {
   mySym: "mykey-3544",
   [mySym1]: "mykey-4826",
 };
+
+
+console.log(jsuser1.mySym); // mykey-3544
+console.log(typeof jsuser1.mySym); // string
+console.log(typeof mySym === "symbol");
+
+console.log(jsuser1[mySym1]); // mykey-4826
+console.log(mySym1.description); // key-16789
+console.log(typeof mySym1 === "symbol");
+console.log("\n");
