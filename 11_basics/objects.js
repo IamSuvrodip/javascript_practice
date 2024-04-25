@@ -48,3 +48,25 @@ jsuser.section = "B";
 jsuser.isLoggedIn = true;
 console.log(jsuser);
 console.log("\n");
+
+/*
+mykey-3544
+string
+true
+mykey-4826
+key-16789
+true
+
+
+{ mySym: 'mykey-3544', [Symbol(key-16789)]: 'mykey-4826' } 
+A
+
+
+{
+  name: 'Suvrodip',
+  roll: 22,
+  section: 'A',
+  isLoggedIn: false,
+  lastLoginDays: [ 'Monday', 'Saturday' ]
+}
+*/
