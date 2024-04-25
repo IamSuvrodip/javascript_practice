@@ -10,3 +10,10 @@ const jsuser = {
   isLoggedIn: false,
   lastLoginDays: ["Monday", "Saturday"],
 };
+
+// access object
+console.log(jsuser.name);
+
+console.log(jsuser["roll"]);
+console.log("\n");
+
