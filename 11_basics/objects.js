@@ -36,3 +36,15 @@ console.log(jsuser1[mySym1]); // mykey-4826
 console.log(mySym1.description); // key-16789
 console.log(typeof mySym1 === "symbol");
 console.log("\n");
+
+console.log(jsuser1);
+
+jsuser.section = "A";
+console.log(jsuser.section);
+console.log("\n");
+
+Object.freeze(jsuser);
+jsuser.section = "B";
+jsuser.isLoggedIn = true;
+console.log(jsuser);
+console.log("\n");
