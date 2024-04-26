@@ -51,6 +51,25 @@ console.log("\n\n");
 
 */
 
+const users = [
+  {
+    id: 1,
+    email: "abc@gmail.com",
+  },
+  {
+    id: 2,
+    email: "abcd@gmail.com",
+  },
+  {
+    id: 3,
+    email: "abcde@gmail.com",
+  },
+];
+
+console.log(users[1].email);
+console.log(tinderUser);
+console.log("\n");
+
 const obj5 = { ...obj1, ...obj2 };
 console.log(obj5);
 console.log("\n");
