@@ -41,3 +41,12 @@ const obj4 = Object.assign({}, obj1, obj2);
 console.log(obj3);
 console.log(obj4);
 console.log("\n\n");
+/*
+
+{
+  obj1: { '1': 'a', '2': 'b', '3': 'c', '4': 'd', '5': 'e', '6': 'f' },
+  obj2: { '4': 'd', '5': 'e', '6': 'f' }
+}
+{ '1': 'a', '2': 'b', '3': 'c', '4': 'd', '5': 'e', '6': 'f' }
+
+*/
