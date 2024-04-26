@@ -17,3 +17,16 @@ const regularUser = {
     lastName: "Chakroborty",
   },
 };
+
+console.log(regularUser);
+console.log(regularUser.fullname);
+console.log(regularUser.fullname.firstName);
+/*
+{
+  email: 'abc@gmail.com',
+  fullname: { firstName: 'Suvrodip', lastName: 'Chakroborty' }
+
+}
+{ firstName: 'Suvrodip', lastName: 'Chakroborty' }
+Suvrodip
+*/
