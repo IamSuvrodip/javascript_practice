@@ -9,3 +9,11 @@ tinderUser.isLoggedIn = false;
 console.log(tinderUser);
 // { id: '123abc', name: 'Suvro', isLoggedIn: false }
 console.log("\n");
+
+const regularUser = {
+  email: "abc@gmail.com",
+  fullname: {
+    firstName: "Suvrodip",
+    lastName: "Chakroborty",
+  },
+};
