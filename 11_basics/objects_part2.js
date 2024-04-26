@@ -50,3 +50,8 @@ console.log("\n\n");
 { '1': 'a', '2': 'b', '3': 'c', '4': 'd', '5': 'e', '6': 'f' }
 
 */
+
+const obj5 = { ...obj1, ...obj2 };
+console.log(obj5);
+console.log("\n");
+// { '1': 'a', '2': 'b', '3': 'c', '4': 'd', '5': 'e', '6': 'f' }
