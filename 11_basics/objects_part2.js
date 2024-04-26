@@ -51,6 +51,12 @@ console.log("\n\n");
 
 */
 
+const obj5 = { ...obj1, ...obj2 };
+console.log(obj5);
+console.log("\n");
+// { '1': 'a', '2': 'b', '3': 'c', '4': 'd', '5': 'e', '6': 'f' }
+
+
 const users = [
   {
     id: 1,
@@ -69,12 +75,6 @@ const users = [
 console.log(users[1].email);
 console.log(tinderUser);
 console.log("\n");
-
-const obj5 = { ...obj1, ...obj2 };
-console.log(obj5);
-console.log("\n");
-// { '1': 'a', '2': 'b', '3': 'c', '4': 'd', '5': 'e', '6': 'f' }
-
 
 /*
 abcd@gmail.com
