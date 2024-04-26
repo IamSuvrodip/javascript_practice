@@ -75,7 +75,6 @@ const users = [
 console.log(users[1].email);
 console.log(tinderUser);
 console.log("\n");
-
 /*
 abcd@gmail.com
 { id: '123abc', name: 'Suvro', isLoggedIn: false }
@@ -85,3 +84,11 @@ console.log(Object.keys(tinderUser));
 console.log(Object.values(tinderUser));
 console.log(Object.entries(tinderUser));
 console.log("\n");
+/*
+[ 'id', 'name', 'isLoggedIn' ]
+[ '123abc', 'Suvro', false ]
+[ [ 'id', '123abc' ], [ 'name', 'Suvro' ], [ 'isLoggedIn', false ] ] 
+*/
+
+console.log(tinderUser.hasOwnProperty("name")); // true
+console.log(tinderUser.hasOwnProperty("email")); // false
