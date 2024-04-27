@@ -40,3 +40,6 @@ const navbar = ({ company }) => {
 navbar((company = "SR limited"));
 console.log(company);
 console.log("\n");
+/*
+SR limited
+*/
