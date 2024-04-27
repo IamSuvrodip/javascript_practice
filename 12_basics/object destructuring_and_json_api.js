@@ -43,3 +43,11 @@ console.log("\n");
 /*
 SR limited
 */
+
+/************ JSON *******************/
+
+// {
+//   "name":"Rudronil",
+//   "age": 12,
+//   "address":"kokata"
+// }
