@@ -28,3 +28,11 @@ const { name: courseName } = course;
 // console.log(name); // Error
 console.log(courseName);
 console.log("\n");
+/*
+js in hindi
+*/
+
+// react type object destructuring
+const navbar = ({ company }) => {
+  //
+};
