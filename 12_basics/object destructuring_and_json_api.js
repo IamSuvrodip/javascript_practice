@@ -24,3 +24,7 @@ console.log("\n");
 Suvrodip
 9999
 */
+const { name: courseName } = course;
+// console.log(name); // Error
+console.log(courseName);
+console.log("\n");
