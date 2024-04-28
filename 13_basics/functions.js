@@ -36,4 +36,10 @@ addTwoNumbers(3, null); // 3
 addTwoNumbers(null, null); // 0
 addTwoNumbers(3, undefined); // NaN
 console.log("\n");
-
+const result = addTwoNumbers(5, 6);
+console.log(result);
+console.log("\n");
+/*
+11
+undefined
+*/
