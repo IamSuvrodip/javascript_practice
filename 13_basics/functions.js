@@ -95,3 +95,16 @@ console.log("\n");
 /*
 Rudro Just registerd in..
 */
+
+function User(username = "Rudro") {
+  if (username === undefined) {
+    console.log("please Enter a user naame");
+    return;
+  }
+  return `${username} Just registerd in..`;
+}
+console.log(User("Suvrodip"));
+console.log("\n");
+/*
+Suvrodip Just registerd in..
+*/
