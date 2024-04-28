@@ -9,3 +9,16 @@ function myName() {
   console.log("P");
 }
 //reference
+myName;
+//execute
+myName();
+/*
+S
+U
+V
+R
+O
+D
+I
+P
+*/
