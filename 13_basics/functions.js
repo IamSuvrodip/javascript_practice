@@ -51,3 +51,10 @@ function subTwoNumbers(num1, num2) {
 }
 console.log(subTwoNumbers(10, 3)); // 7
 console.log("\n");
+
+function mulTwoNumbers(num1, num2) {
+  return num1 * num2;
+}
+const res = mulTwoNumbers(11, 20);
+console.log(res); // 220
+console.log("\n");
