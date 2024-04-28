@@ -82,3 +82,16 @@ console.log("\n");
 please Enter a user naame
 undefined
 */
+
+function loginUser(username = "Rudro") {
+  if (username === undefined) {
+    console.log("please Enter a user naame");
+    return;
+  }
+  return `${username} Just registerd in..`;
+}
+console.log(loginUser());
+console.log("\n");
+/*
+Rudro Just registerd in..
+*/
