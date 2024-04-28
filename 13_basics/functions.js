@@ -75,3 +75,10 @@ function loginUserMessage(username) {
   }
   return `${username} Just registerd in..`;
 }
+
+console.log(loginUserMessage());
+console.log("\n");
+/*
+please Enter a user naame
+undefined
+*/
