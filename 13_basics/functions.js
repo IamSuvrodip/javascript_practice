@@ -58,3 +58,12 @@ function mulTwoNumbers(num1, num2) {
 const res = mulTwoNumbers(11, 20);
 console.log(res); // 220
 console.log("\n");
+
+function registerUserMessage(username) {
+  return `${username} Just registerd in..`;
+}
+
+console.log(loginUserMessage("Suvrodip")); // Suvrodip Just logged in..
+console.log(loginUserMessage("")); // Just logged in..
+console.log(loginUserMessage()); // undefined Just logged in..
+console.log("\n");
