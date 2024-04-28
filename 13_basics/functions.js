@@ -43,3 +43,11 @@ console.log("\n");
 11
 undefined
 */
+
+function subTwoNumbers(num1, num2) {
+  const res = num1 - num2;
+  return res;
+  //console.log("suvro"); // Unreachable code detected
+}
+console.log(subTwoNumbers(10, 3)); // 7
+console.log("\n");
