@@ -67,3 +67,11 @@ console.log(loginUserMessage("Suvrodip")); // Suvrodip Just logged in..
 console.log(loginUserMessage("")); // Just logged in..
 console.log(loginUserMessage()); // undefined Just logged in..
 console.log("\n");
+
+function loginUserMessage(username) {
+  if (username === undefined) {
+    console.log("please Enter a user naame");
+    return;
+  }
+  return `${username} Just registerd in..`;
+}
