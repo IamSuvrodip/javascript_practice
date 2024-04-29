@@ -33,3 +33,10 @@ function handleObject(obj) {
 handleObject(user);
 console.log("\n");
 // User anme is Suvrodip and price is 23
+
+// direct object call
+handleObject({
+  username: "Rudronil",
+  age: 12,
+});
+// User anme is Rudronil and price is 12
