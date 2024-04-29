@@ -58,3 +58,11 @@ if (true) {
 }
 console.log(j); // 300
 console.log("\n");
+
+let k = 300;
+if (true) {
+  let k = 30;
+  console.log("INNER: ", k); // INNER:  30
+}
+console.log(k); // 300
+console.log("\n");
