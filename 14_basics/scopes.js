@@ -23,3 +23,9 @@ if (true) {
   const e = 20;
   var f = 30;
 }
+
+// console.log(d); // d is not defined
+// console.log(e); // e is not defined
+console.log(f); // 30
+console.log("\n");
+// thats why we don't use var type variable
