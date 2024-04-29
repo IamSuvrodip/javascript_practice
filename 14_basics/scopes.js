@@ -66,3 +66,11 @@ if (true) {
 }
 console.log(k); // 300
 console.log("\n");
+
+const l = 300;
+if (true) {
+  const l = 30;
+  console.log("INNER: ", l); // INNER:  30
+}
+console.log(l); // 300
+console.log("\n");
