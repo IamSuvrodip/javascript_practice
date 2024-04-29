@@ -10,3 +10,10 @@ function calculateCartPrice(...num) {
 console.log(calculateCartPrice(200, 400, 500));
 console.log("\n");
 // [ 200, 400, 500 ]
+
+function calculatePrice(value1, value2, ...num) {
+  return num;
+}
+
+// value1 -----> 200
+// value2 -----> 400
