@@ -37,3 +37,10 @@ if (true) {
 console.log(g); // 30
 // var nor print global variable thats why we dont use it
 console.log("\n");
+
+var h = 300;
+if (true) {
+  h = 30;
+}
+console.log(h); // 30
+console.log("\n");
