@@ -29,3 +29,11 @@ if (true) {
 console.log(f); // 30
 console.log("\n");
 // thats why we don't use var type variable
+
+var g = 300;
+if (true) {
+  var g = 30;
+}
+console.log(g); // 30
+// var nor print global variable thats why we dont use it
+console.log("\n");
