@@ -26,3 +26,10 @@ const user = {
   username: "Suvrodip",
   age: 23,
 };
+
+function handleObject(obj) {
+  console.log(`User anme is ${obj.username} and price is ${obj.age}`);
+}
+handleObject(user);
+console.log("\n");
+// User anme is Suvrodip and price is 23
