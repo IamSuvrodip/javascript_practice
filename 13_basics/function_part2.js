@@ -17,3 +17,12 @@ function calculatePrice(value1, value2, ...num) {
 
 // value1 -----> 200
 // value2 -----> 400
+
+console.log(calculatePrice(200, 400, 500));
+console.log("\n");
+// [ 500 ]
+
+const user = {
+  username: "Suvrodip",
+  age: 23,
+};
