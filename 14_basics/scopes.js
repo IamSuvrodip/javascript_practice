@@ -13,3 +13,13 @@ console.log("\n");
 20
 30
 */
+
+{
+  // this is scope
+}
+
+if (true) {
+  let d = 10;
+  const e = 20;
+  var f = 30;
+}
