@@ -44,3 +44,10 @@ if (true) {
 }
 console.log(h); // 30
 console.log("\n");
+
+let i = 300;
+if (true) {
+  let i = 30;
+}
+console.log(i); // 300
+console.log("\n");
