@@ -51,3 +51,10 @@ if (true) {
 }
 console.log(i); // 300
 console.log("\n");
+
+const j = 300;
+if (true) {
+  const j = 30;
+}
+console.log(j); // 300
+console.log("\n");
