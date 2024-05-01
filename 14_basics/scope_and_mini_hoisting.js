@@ -45,3 +45,13 @@ console.log("\n");
 suvrodip
 http://www.google.com
 */
+
+if (true) {
+  const username = "Suvrodip";
+  if (username === "Suvrodip") {
+    const website = "youtube";
+    console.log(username + " " + website); //Suvrodip youtube
+  }
+  // console.log(website); // nor access outside scope
+}
+// console.log(username); // not access outside scope
