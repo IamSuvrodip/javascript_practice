@@ -55,3 +55,11 @@ if (true) {
   // console.log(website); // nor access outside scope
 }
 // console.log(username); // not access outside scope
+
+//+++++++++++++++ interesting +++++++++++++++
+
+console.log(addone(5));
+function addone(num) {
+  return num + 1;
+}
+// 6
