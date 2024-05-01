@@ -63,3 +63,9 @@ function addone(num) {
   return num + 1;
 }
 // 6
+
+function addone(num) {
+  return num + 1;
+}
+console.log(addone(5));
+// 6
