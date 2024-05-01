@@ -24,3 +24,6 @@ console.log("\n");*/
   //console.log(website);
   two();
 }
+one();
+console.log("\n");*/
+// suvrodip
