@@ -27,3 +27,14 @@ console.log("\n");*/
 one();
 console.log("\n");*/
 // suvrodip
+
+function one() {
+  const username = "suvrodip";
+
+  function two() {
+    const website = "http://www.google.com";
+    console.log(website);
+  }
+  console.log(username);
+  two();
+}
