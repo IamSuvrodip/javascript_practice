@@ -27,3 +27,9 @@ user1.welcome();
 Ram,  welcome to website
 { name: 'Ram', age: 12, welcome: [Function: welcome] }
 */
+user1.name = "Sam";
+user1.welcome();
+/*
+Sam,  welcome to website
+{ name: 'Sam', age: 12, welcome: [Function: welcome] }
+*/
