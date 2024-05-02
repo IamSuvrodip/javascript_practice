@@ -107,3 +107,9 @@ console.log("\n");
 // arrow function
 // () => {};
 // basic arrow function
+
+const addTwo = (number1, number2) => {
+  return number1 + number2;
+};
+console.log(addTwo(3, 5));
+console.log("\n"); // 8
