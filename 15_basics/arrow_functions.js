@@ -78,3 +78,20 @@ console.log("\n");
   crypto: [Getter]
 }
 */
+//simple function
+
+// const uname = function () {
+//   let username = "suvro";
+//   console.log(this.username);
+// };
+// uname();
+// undefined
+
+// arrow function
+
+// const uname = () => {
+//   let username = "suvro";
+//   console.log(this.username);
+// };
+// uname();
+//undefined
