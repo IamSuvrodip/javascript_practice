@@ -43,3 +43,7 @@ const user2 = {
     console.log(`${this.user_name},  welcome to website`);
   },
 };
+
+console.log(this);
+// {}  // run in browser console
+console.log("\n");
