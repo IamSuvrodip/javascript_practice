@@ -95,3 +95,15 @@ console.log("\n");
 // };
 // uname();
 //undefined
+
+const uname = () => {
+  let username = "suvro";
+  console.log(this);
+};
+uname();
+//{}
+console.log("\n");
+
+// arrow function
+// () => {};
+// basic arrow function
