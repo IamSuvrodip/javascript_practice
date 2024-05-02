@@ -129,4 +129,3 @@ const username = (uname) => ({ username: "Suvro" });
 console.log(username());
 console.log("\n");
 //{ username: 'Suvro' }
-
