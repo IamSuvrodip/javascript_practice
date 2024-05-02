@@ -47,3 +47,11 @@ const user2 = {
 console.log(this);
 // {}  // run in browser console
 console.log("\n");
+
+// function
+function funcname() {
+  // let username = "suvro"; // undefined
+  console.log(this.username);
+}
+funcname();
+console.log("\n");
