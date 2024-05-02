@@ -121,3 +121,12 @@ console.log("\n");
 const mulTwo = (number1, number2) => /*(*/ number1 * number2; /*)*/
 console.log(mulTwo(5, 2)); // 10
 console.log("\n");
+
+// NOTE:- When you use second braket then use return keyword
+// NOTE:- When you use fast braket then dont use return keyword
+
+const username = (uname) => ({ username: "Suvro" });
+console.log(username());
+console.log("\n");
+//{ username: 'Suvro' }
+
