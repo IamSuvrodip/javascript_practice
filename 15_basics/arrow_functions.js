@@ -113,3 +113,8 @@ const addTwo = (number1, number2) => {
 };
 console.log(addTwo(3, 5));
 console.log("\n"); // 8
+
+// another way implicit return
+const subTwo = (number1, number2) => number1 - number2;
+console.log(subTwo(5, 2)); // 3
+console.log("\n");
