@@ -33,3 +33,13 @@ user1.welcome();
 Sam,  welcome to website
 { name: 'Sam', age: 12, welcome: [Function: welcome] }
 */
+console.log("\n");
+
+const user2 = {
+  user_name: "Ram",
+  age: 12,
+
+  welcome: function () {
+    console.log(`${this.user_name},  welcome to website`);
+  },
+};
