@@ -22,3 +22,8 @@ const user1 = {
     console.log(this);
   },
 };
+user1.welcome();
+/*
+Ram,  welcome to website
+{ name: 'Ram', age: 12, welcome: [Function: welcome] }
+*/
