@@ -118,3 +118,6 @@ console.log("\n"); // 8
 const subTwo = (number1, number2) => number1 - number2;
 console.log(subTwo(5, 2)); // 3
 console.log("\n");
+const mulTwo = (number1, number2) => /*(*/ number1 * number2; /*)*/
+console.log(mulTwo(5, 2)); // 10
+console.log("\n");
