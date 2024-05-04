@@ -24,3 +24,9 @@ chai();
 (function coffee() {
   console.log(`Coffee`);
 })();
+// two iife together
+
+// unnamed parameter pass iife
+((name) => {
+  console.log(`Welcome ${name}`);
+})("Suvrodip");
