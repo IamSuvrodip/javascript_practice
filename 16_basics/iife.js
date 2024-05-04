@@ -20,3 +20,7 @@ chai();
 (() => {
   console.log(`DATABASE`);
 })();
+// named iife
+(function coffee() {
+  console.log(`Coffee`);
+})();
