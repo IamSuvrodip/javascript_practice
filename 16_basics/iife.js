@@ -17,3 +17,6 @@ chai();
 // global scopki polution se problem hoti hain kayibar to jo global scopki variables hain or jovi ohapar decliar hain osab problem hatane keliye iife function use hota hain
 
 // unnamed iife
+(() => {
+  console.log(`DATABASE`);
+})();
