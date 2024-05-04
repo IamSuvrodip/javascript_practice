@@ -30,3 +30,10 @@ chai();
 ((name) => {
   console.log(`Welcome ${name}`);
 })("Suvrodip");
+/*
+DB CHAI CONNECTED
+DB TEA CONNECTED
+DATABASE
+Coffee
+Welcome Suvrodip
+*/
