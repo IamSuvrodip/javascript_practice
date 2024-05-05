@@ -66,3 +66,9 @@ console.log("\n");
 const uniqueArray = [...new Set(real_another_array)];
 console.log(uniqueArray);
 console.log("\n");
+/*
+[
+  1, 2, 3, 4, 5,
+  6, 7, 8, 9
+]
+*/
