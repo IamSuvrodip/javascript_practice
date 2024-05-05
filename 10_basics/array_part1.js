@@ -13,3 +13,17 @@ const dcheros = ["Batman", "Superman", "flash"];
     [ 'Batman', 'Superman', 'flash' ] ///// as a one element
 ]
 */
+
+//const allheros = marvelheros.concat(dcheros);
+//console.log(allheros);
+/*
+[
+  'Ironman',
+  'spiderman',
+  'thor',
+  'hulk',
+  'Batman',
+  'Superman',
+  'flash'
+]
+*/
