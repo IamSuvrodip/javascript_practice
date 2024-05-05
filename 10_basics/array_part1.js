@@ -54,3 +54,12 @@ console.log("\n");
   5, 6, 8
 ]
 */
+console.log(real_another_array.sort());
+console.log("\n");
+/*
+[
+  1, 2, 3, 4, 5, 5,
+  5, 5, 6, 6, 7, 8,
+  8, 8, 9
+]
+*/
