@@ -83,3 +83,10 @@ console.log("\n");
   'i', 'p'
 ]
 */
+/* Interesting case for interview */
+console.log(Array.from({ name: "Suvrodip" }));
+console.log("\n");
+
+let score1 = 100;
+let score2 = 200;
+let score3 = 300;
