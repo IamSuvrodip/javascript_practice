@@ -72,3 +72,14 @@ console.log("\n");
   6, 7, 8, 9
 ]
 */
+console.log(Array.isArray("Suvrodip")); // false
+// from convert string in array
+console.log(Array.from("Suvrodip"));
+console.log("\n");
+/*
+[
+  'S', 'u', 'v',
+  'r', 'o', 'd',
+  'i', 'p'
+]
+*/
