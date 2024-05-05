@@ -27,3 +27,8 @@ function three() {
   console.log("three");
   one();
 }
+one();
+two();
+three();*/
+
+/*
