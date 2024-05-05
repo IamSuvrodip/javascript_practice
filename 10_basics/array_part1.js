@@ -31,3 +31,14 @@ const dcheros = ["Batman", "Superman", "flash"];
 const all_new_heros = [...marvelheros, ...dcheros];
 console.log(all_new_heros);
 console.log("\n");
+/*
+[
+  'Ironman',
+  'spiderman',
+  'thor',
+  'hulk',
+  'Batman',
+  'Superman',
+  'flash'
+]
+*/
