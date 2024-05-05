@@ -46,3 +46,15 @@ function two() {
 function three() {
   console.log("three");
 }
+one();
+two();
+three();
+
+/*
+one
+two
+three
+two
+three
+three
+*/
