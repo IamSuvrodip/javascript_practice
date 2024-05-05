@@ -27,3 +27,7 @@ const dcheros = ["Batman", "Superman", "flash"];
   'flash'
 ]
 */
+// ... three dot is spread all elements
+const all_new_heros = [...marvelheros, ...dcheros];
+console.log(all_new_heros);
+console.log("\n");
