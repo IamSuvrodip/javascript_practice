@@ -63,3 +63,6 @@ console.log("\n");
   8, 8, 9
 ]
 */
+const uniqueArray = [...new Set(real_another_array)];
+console.log(uniqueArray);
+console.log("\n");
