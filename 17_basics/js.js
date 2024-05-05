@@ -32,3 +32,10 @@ two();
 three();*/
 
 /*
+infinite one two three print
+*/
+
+function one() {
+  console.log("one");
+  two();
+}
