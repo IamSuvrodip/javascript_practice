@@ -28,3 +28,7 @@ if (2 === 2) {
 if ("2" === 2) {
   console.log("4.Executed");
 }
+if ("2" !== 2) {
+  console.log("5.Executed");
+}
+console.log("\n");
