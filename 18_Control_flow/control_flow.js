@@ -13,3 +13,8 @@ const isUserLoggedIn = true;
 if (isUserLoggedIn) {
   console.log("User logged in");
 }
+console.log("\n");
+
+if (2 == 2) {
+  console.log("1.Executed");
+}
