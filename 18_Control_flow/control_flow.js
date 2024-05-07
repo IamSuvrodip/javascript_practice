@@ -32,3 +32,9 @@ if ("2" !== 2) {
   console.log("5.Executed");
 }
 console.log("\n");
+const score = 200;
+
+if (score > 100) {
+  const power = "fly";
+  console.log(`user power: ${power}`);
+}
