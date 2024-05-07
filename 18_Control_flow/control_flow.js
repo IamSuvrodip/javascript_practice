@@ -18,3 +18,7 @@ console.log("\n");
 if (2 == 2) {
   console.log("1.Executed");
 }
+if ("2" == 2) {
+  console.log("2.Executed");
+}
+console.log("\n");
