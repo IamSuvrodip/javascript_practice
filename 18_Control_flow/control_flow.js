@@ -38,3 +38,11 @@ if (score > 100) {
   const power = "fly";
   console.log(`user power: ${power}`);
 }
+console.log("\n");
+
+const UserLoggedIn = true;
+const debitCard = true;
+if (UserLoggedIn && debitCard) {
+  // && and sign
+  console.log("Allow to buy course");
+}
