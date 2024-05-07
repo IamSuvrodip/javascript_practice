@@ -54,3 +54,12 @@ if (loggedInFromGoogle || loggedInFromEmail) {
   console.log("User logged in");
 }
 console.log("\n");
+
+/*****nullish coalescing operator (??)********/
+// null , undefined
+
+let value1;
+let value2;
+let value3;
+let value4;
+
