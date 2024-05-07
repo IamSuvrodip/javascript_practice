@@ -61,5 +61,14 @@ console.log("\n");
 let value1;
 let value2;
 let value3;
-let value4;
+let value;
 
+value1 = 5 ?? 10;
+value2 = null ?? 10;
+value3 = undefined ?? 15;
+value4 = null ?? 18 ?? 20;
+console.log(value1);
+console.log(value2);
+console.log(value3);
+console.log(value4);
+console.log("\n");
