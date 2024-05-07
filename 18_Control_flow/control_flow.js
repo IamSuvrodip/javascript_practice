@@ -72,3 +72,14 @@ console.log(value2);
 console.log(value3);
 console.log(value4);
 console.log("\n");
+/*
+5
+10
+15
+18
+*/
+
+/*********** Terniary Operator ***********/
+
+// condition ? true : false;
+
