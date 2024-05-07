@@ -46,3 +46,11 @@ if (UserLoggedIn && debitCard) {
   // && and sign
   console.log("Allow to buy course");
 }
+console.log("\n");
+
+const loggedInFromGoogle = true;
+const loggedInFromEmail = false;
+if (loggedInFromGoogle || loggedInFromEmail) {
+  console.log("User logged in");
+}
+console.log("\n");
