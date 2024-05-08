@@ -47,3 +47,9 @@ switch (month) {
   case 12:
     console.log("dec");
     break;
+
+  default:
+    console.log("Wrong input");
+    break;
+}
+//may
