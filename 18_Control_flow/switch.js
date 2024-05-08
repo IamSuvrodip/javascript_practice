@@ -36,3 +36,11 @@ switch (month) {
     console.log("aug");
     break;
   case 9:
+    console.log("sep");
+    break;
+  case 10:
+    console.log("oct");
+    break;
+  case 11:
+    console.log("nov");
+    break;
