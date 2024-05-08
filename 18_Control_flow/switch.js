@@ -44,3 +44,6 @@ switch (month) {
   case 11:
     console.log("nov");
     break;
+  case 12:
+    console.log("dec");
+    break;
