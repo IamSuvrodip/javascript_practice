@@ -32,3 +32,7 @@ switch (month) {
   case 7:
     console.log("july");
     break;
+  case 8:
+    console.log("aug");
+    break;
+  case 9:
