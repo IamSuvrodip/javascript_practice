@@ -58,4 +58,6 @@ const emtyObject = {};
 
 if (Object.keys(userEmail3).length === 0) {
   console.log("Object is empty");
+}  else {
+  console.log("Object is not empty");
 }
