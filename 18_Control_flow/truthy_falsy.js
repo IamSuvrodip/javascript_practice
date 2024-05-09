@@ -52,3 +52,10 @@ if (userEmail3.length === 0) {
 } else {
   console.log("Array is not empty");
 }
+// Array is empty
+
+const emtyObject = {};
+
+if (Object.keys(userEmail3).length === 0) {
+  console.log("Object is empty");
+}
