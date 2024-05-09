@@ -34,3 +34,13 @@ null
 undefined
 NaN
 */
+// Truthy values
+/*
+"0"
+'false'
+" "
+[]
+{}
+function(){}
+
+*/
