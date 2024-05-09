@@ -14,3 +14,10 @@ if (userEmail1) {
   console.log("No user email");
 }
 //No user email
+const userEmail2 = [];
+
+if (userEmail2) {
+  console.log("Got user Email");
+} else {
+  console.log("No user email");
+}
