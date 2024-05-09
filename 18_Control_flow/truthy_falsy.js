@@ -44,3 +44,11 @@ NaN
 function(){}
 
 */
+// empty array is a truthy value how to convert into falsy value
+const userEmail3 = [];
+
+if (userEmail3.length === 0) {
+  console.log("Array is empty");
+} else {
+  console.log("Array is not empty");
+}
