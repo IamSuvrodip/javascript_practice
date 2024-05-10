@@ -52,3 +52,10 @@ console.log("\n");
 9
 10
 */
+for (let i = 1; i <= 3; i++) {
+  console.log(`Outer loop: ${i}`);
+  for (let j = 1; j <= 2; j++) {
+    console.log(`Inner Loop: ${j}`);
+  }
+}
+console.log("\n");
