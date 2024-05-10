@@ -22,3 +22,19 @@ console.log("\n");
 9
 10
 */
+/*
+for (let index = 0; index <= 10; index++) {
+  const element = index;
+}
+
+console.log(element);*/
+//element is not defined
+
+for (let index = 0; index <= 10; index++) {
+  const element = index;
+  if (element === 5) {
+    console.log("5 is best number");
+  }
+  console.log(element);
+}
+console.log("\n");
