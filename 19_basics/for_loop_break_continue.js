@@ -70,3 +70,11 @@ Outer loop: 3
 Inner Loop: 1
 Inner Loop: 2
 */
+for (let i = 1; i <= 10; i++) {
+  console.log("\n");
+  console.log(`Table ${i}`);
+  for (let j = 1; j <= 10; j++) {
+    console.log(`${i} * ${j} = ${i * j}`);
+  }
+}
+console.log("\n");
