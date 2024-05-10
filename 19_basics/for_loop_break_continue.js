@@ -229,3 +229,11 @@ for (let i = 1; i <= 20; i++) {
   }
   console.log(`Value of i is: ${i}`);
 }
+console.log("\n");
+/*
+Value of i is: 1
+Value of i is: 2
+Value of i is: 3
+Value of i is: 4
+Detected 5
+*/
