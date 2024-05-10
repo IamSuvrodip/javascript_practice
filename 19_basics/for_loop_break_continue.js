@@ -208,3 +208,10 @@ Table 10
 10 * 9 = 90
 10 * 10 = 100
 */
+let myArray = ["flash", "superman", "batman"];
+console.log(`Array length is: ${myArray.length}`);
+for (let index = 0; index < myArray.length; index++) {
+  const element = myArray[index];
+  console.log(element);
+}
+console.log("\n");
