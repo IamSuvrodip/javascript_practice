@@ -215,3 +215,9 @@ for (let index = 0; index < myArray.length; index++) {
   console.log(element);
 }
 console.log("\n");
+/*
+Array length is: 3
+flash
+superman
+batman
+*/
