@@ -59,3 +59,14 @@ for (let i = 1; i <= 3; i++) {
   }
 }
 console.log("\n");
+/*
+Outer loop: 1
+Inner Loop: 1
+Inner Loop: 2
+Outer loop: 2
+Inner Loop: 1
+Inner Loop: 2
+Outer loop: 3
+Inner Loop: 1
+Inner Loop: 2
+*/
