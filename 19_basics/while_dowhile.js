@@ -69,3 +69,8 @@ while (a < myArray.length) {
   a++;
 }
 console.log("\n");
+/*
+Value is flash
+Value is superman
+Value is batman
+*/
