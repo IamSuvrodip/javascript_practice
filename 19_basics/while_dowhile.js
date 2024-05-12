@@ -61,3 +61,11 @@ value of index is 6
 value of index is 8
 value of index is 10
 */
+let myArray = ["flash", "superman", "batman"];
+
+let a = 0;
+while (a < myArray.length) {
+  console.log(`Value is ${myArray[a]}`);
+  a++;
+}
+console.log("\n");
