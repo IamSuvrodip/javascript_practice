@@ -28,3 +28,9 @@ value of i is 8
 value of i is 9
 value of i is 10
 */
+let i = 0;
+while (i <= 10) {
+  console.log(`value of i is ${i}`);
+  i = i + 1;
+}
+console.log("\n");
