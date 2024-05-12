@@ -96,3 +96,11 @@ Score os 8
 Score os 9
 Score os 10
 */
+let score1 = 11;
+do {
+  console.log(`Score os ${score}`);
+  score++;
+} while (score <= 10);
+console.log("\n");
+//Score os 11
+// there print first then incriment
