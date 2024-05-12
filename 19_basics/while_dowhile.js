@@ -53,3 +53,11 @@ while (index <= 10) {
   index = index + 2;
 }
 console.log("\n");
+/*
+value of index is 0
+value of index is 2
+value of index is 4
+value of index is 6
+value of index is 8
+value of index is 10
+*/
