@@ -47,3 +47,9 @@ value of i is 8
 value of i is 9
 value of i is 10
 */
+let index = 0;
+while (index <= 10) {
+  console.log(`value of index is ${index}`);
+  index = index + 2;
+}
+console.log("\n");
