@@ -74,3 +74,13 @@ Value is flash
 Value is superman
 Value is batman
 */
+/*************** DO While Loop ********************/
+console.log("*************** DO While Loop ********************");
+console.log("\n");
+
+let score = 1;
+do {
+  console.log(`Score os ${score}`);
+  score++;
+} while (score <= 10);
+console.log("\n");
