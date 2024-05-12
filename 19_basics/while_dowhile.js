@@ -84,3 +84,15 @@ do {
   score++;
 } while (score <= 10);
 console.log("\n");
+/*
+Score os 1
+Score os 2
+Score os 3
+Score os 4
+Score os 5
+Score os 6
+Score os 7
+Score os 8
+Score os 9
+Score os 10
+*/
