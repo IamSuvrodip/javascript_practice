@@ -16,3 +16,15 @@ console.log("\n");
 6
 7
 */
+const greetings = "Hello";
+for (const greet of greetings) {
+  console.log(`Each char is ${greet}`);
+}
+console.log("\n");
+/*
+Each char is H
+Each char is e
+Each char is l
+Each char is l
+Each char is o
+*/
