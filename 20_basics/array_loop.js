@@ -51,3 +51,13 @@ map1.set("IN", "India");
 
 console.log(map1);
 console.log("\n");
+/*
+Map(3) {
+  'IN' => 'India',
+  'USA' => 'United States of America',
+  'FR' => 'France'
+}
+*/
+// map not print duplicate value
+
+// forof loop in map
