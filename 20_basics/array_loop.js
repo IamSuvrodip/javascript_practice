@@ -28,3 +28,18 @@ Each char is l
 Each char is l
 Each char is o
 */
+// MAP
+const map = new Map();
+map.set("IN", "India");
+map.set("USA", "United States of America");
+map.set("FR", "France");
+console.log(map);
+console.log("\n");
+
+/*
+Map(3) {
+  'IN' => 'India',
+  'USA' => 'United States of America',
+  'FR' => 'France'
+}
+*/
