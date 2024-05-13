@@ -76,3 +76,13 @@ console.log("\n");
 [ 'USA', 'United States of America' ]
 [ 'FR', 'France' ]
 */
+const map3 = new Map();
+map3.set("IN", "India");
+map3.set("USA", "United States of America");
+map3.set("FR", "France");
+map3.set("IN", "India");
+
+for (const [key] of map3) {
+  console.log(key);
+}
+console.log("\n");
