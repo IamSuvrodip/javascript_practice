@@ -86,3 +86,9 @@ for (const [key] of map3) {
   console.log(key);
 }
 console.log("\n");
+/*
+IN
+USA
+FR
+*/
+
