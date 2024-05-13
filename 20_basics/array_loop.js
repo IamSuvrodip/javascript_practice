@@ -61,3 +61,13 @@ Map(3) {
 // map not print duplicate value
 
 // forof loop in map
+const map2 = new Map();
+map2.set("IN", "India");
+map2.set("USA", "United States of America");
+map2.set("FR", "France");
+map2.set("IN", "India");
+
+for (const key of map2) {
+  console.log(key);
+}
+console.log("\n");
