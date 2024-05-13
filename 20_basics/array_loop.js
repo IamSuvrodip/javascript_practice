@@ -71,3 +71,8 @@ for (const key of map2) {
   console.log(key);
 }
 console.log("\n");
+/*
+[ 'IN', 'India' ]
+[ 'USA', 'United States of America' ]
+[ 'FR', 'France' ]
+*/
