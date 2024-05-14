@@ -97,3 +97,12 @@ map4.set("IN", "India");
 map4.set("USA", "United States of America");
 map4.set("FR", "France");
 map4.set("IN", "India");
+for (const [key, value] of map4) {
+  console.log(` ${key} :-  ${value}`);
+}
+console.log("\n");
+/*
+ IN :-  India
+ USA :-  United States of America
+ FR :-  France
+*/
