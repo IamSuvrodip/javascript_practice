@@ -134,3 +134,14 @@ const myObj1 = {
   game3: "GTA5",
   game4: "PUBG",
 };
+for (const key in myObj1) {
+  console.log(key);
+}
+
+console.log("\n");
+/*
+game1
+game2
+game3
+game4
+*/
