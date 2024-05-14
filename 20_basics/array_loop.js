@@ -164,3 +164,9 @@ Spiderman
 GTA5
 PUBG
 */
+const myObj3 = {
+  game1: "IGI",
+  game2: "Spiderman",
+  game3: "GTA5",
+  game4: "PUBG",
+};
