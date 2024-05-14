@@ -194,3 +194,14 @@ console.log("\n");
 2
 3
 */
+const myHerros1 = ["Batman", "Superman", "Flash", "Ironman"];
+for (const key in myHerros1) {
+  console.log(myHerros1[key]);
+}
+console.log("\n");
+/*
+Batman
+Superman
+Flash
+Ironman
+*/
