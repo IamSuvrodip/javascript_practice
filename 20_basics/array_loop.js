@@ -121,3 +121,16 @@ for (const [key, value] of myObj) {
 }
 console.log("\n");
 */
+/*
+for (const [key, value] of myObj) {
+                           ^
+*/
+//ERROR myObj is not iterable
+
+//there use forin loop not forof loop
+const myObj1 = {
+  game1: "IGI",
+  game2: "Spiderman",
+  game3: "GTA5",
+  game4: "PUBG",
+};
