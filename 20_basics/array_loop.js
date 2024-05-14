@@ -92,3 +92,8 @@ USA
 FR
 */
 
+const map4 = new Map();
+map4.set("IN", "India");
+map4.set("USA", "United States of America");
+map4.set("FR", "France");
+map4.set("IN", "India");
