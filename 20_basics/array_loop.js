@@ -106,3 +106,18 @@ console.log("\n");
  USA :-  United States of America
  FR :-  France
 */
+// forof in object
+
+/*
+const myObj = {
+  game1: "IGI",
+  game2: "Spiderman",
+  game3: "GTA5",
+  game4: "PUBG",
+};
+
+for (const [key, value] of myObj) {
+  console.log(`${key} :- ${value}`);
+}
+console.log("\n");
+*/
