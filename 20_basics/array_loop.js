@@ -181,3 +181,16 @@ game2 :- Spiderman
 game3 :- GTA5
 game4 :- PUBG
 */
+// forin loop in array
+const myHerros = ["Batman", "Superman", "Flash", "Ironman"];
+for (const key in myHerros) {
+  console.log(key);
+}
+console.log("\n");
+// print keys index value
+/*
+0
+1
+2
+3
+*/
