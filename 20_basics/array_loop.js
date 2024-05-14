@@ -170,3 +170,14 @@ const myObj3 = {
   game3: "GTA5",
   game4: "PUBG",
 };
+for (const key in myObj3) {
+  console.log(`${key} :- ${myObj3[key]}`);
+}
+
+console.log("\n");
+/*
+game1 :- IGI
+game2 :- Spiderman
+game3 :- GTA5
+game4 :- PUBG
+*/
