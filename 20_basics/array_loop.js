@@ -145,3 +145,22 @@ game2
 game3
 game4
 */
+const myObj2 = {
+  game1: "IGI",
+  game2: "Spiderman",
+  game3: "GTA5",
+  game4: "PUBG",
+};
+
+for (const key in myObj2) {
+  console.log(myObj2[key]);
+}
+
+console.log("\n");
+// only print all values
+/*
+IGI
+Spiderman
+GTA5
+PUBG
+*/
