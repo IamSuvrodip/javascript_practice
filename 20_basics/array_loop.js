@@ -252,3 +252,7 @@ ruby
 java
 python
 */
+language.forEach((item, index, arr) => {
+  console.log(`Index:- ${index}   Item:- ${item}   Array:- ${arr}`);
+});
+console.log("\n");
