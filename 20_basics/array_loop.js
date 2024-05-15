@@ -234,3 +234,9 @@ language.forEach((value1) => {
   console.log(value1);
 });
 console.log("\n");
+/*
+js
+ruby
+java
+python
+*/
