@@ -229,3 +229,8 @@ ruby
 java
 python
 */
+// arrow function
+language.forEach((value1) => {
+  console.log(value1);
+});
+console.log("\n");
