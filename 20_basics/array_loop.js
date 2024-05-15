@@ -263,3 +263,7 @@ Index:- 1   Item:- ruby   Array:- js,ruby,java,python
 Index:- 2   Item:- java   Array:- js,ruby,java,python
 Index:- 3   Item:- python   Array:- js,ruby,java,python  
 */
+language.forEach((item, index, arr) => {
+  console.log(index, item, arr);
+});
+console.log("\n");
