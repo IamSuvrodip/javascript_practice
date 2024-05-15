@@ -216,3 +216,10 @@ console.log("\n");
 2 :- Flash
 3 :- Ironman
 */
+// forEach function
+const language = ["js", "ruby", "java", "python"];
+
+language.forEach(function (value) {
+  console.log(value);
+});
+console.log("\n");
