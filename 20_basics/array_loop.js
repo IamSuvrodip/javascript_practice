@@ -240,3 +240,9 @@ ruby
 java
 python
 */
+function printMe(item) {
+  console.log(item);
+}
+
+language.forEach(printMe);
+console.log("\n");
