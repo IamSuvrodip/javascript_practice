@@ -267,3 +267,9 @@ language.forEach((item, index, arr) => {
   console.log(index, item, arr);
 });
 console.log("\n");
+/*
+0 js [ 'js', 'ruby', 'java', 'python' ]
+1 ruby [ 'js', 'ruby', 'java', 'python' ]
+2 java [ 'js', 'ruby', 'java', 'python' ]
+3 python [ 'js', 'ruby', 'java', 'python' ]
+*/
