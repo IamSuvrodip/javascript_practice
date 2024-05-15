@@ -210,3 +210,9 @@ for (const key in myHerros2) {
   console.log(`${key} :- ${myHerros2[key]}`);
 }
 console.log("\n");
+/*
+0 :- Batman
+1 :- Superman
+2 :- Flash
+3 :- Ironman
+*/
