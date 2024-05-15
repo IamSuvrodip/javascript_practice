@@ -256,3 +256,10 @@ language.forEach((item, index, arr) => {
   console.log(`Index:- ${index}   Item:- ${item}   Array:- ${arr}`);
 });
 console.log("\n");
+
+/*
+Index:- 0   Item:- js   Array:- js,ruby,java,python
+Index:- 1   Item:- ruby   Array:- js,ruby,java,python
+Index:- 2   Item:- java   Array:- js,ruby,java,python
+Index:- 3   Item:- python   Array:- js,ruby,java,python  
+*/
