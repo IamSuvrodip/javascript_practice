@@ -205,3 +205,8 @@ Superman
 Flash
 Ironman
 */
+const myHerros2 = ["Batman", "Superman", "Flash", "Ironman"];
+for (const key in myHerros2) {
+  console.log(`${key} :- ${myHerros2[key]}`);
+}
+console.log("\n");
