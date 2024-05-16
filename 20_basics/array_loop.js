@@ -273,3 +273,24 @@ console.log("\n");
 2 java [ 'js', 'ruby', 'java', 'python' ]
 3 python [ 'js', 'ruby', 'java', 'python' ]
 */
+// important for fetch api
+const userDetails = [
+  {
+    name: "Suvro",
+    age: "23",
+    roll: "01",
+    section: "A",
+  },
+  {
+    name: "Sumit",
+    age: "20",
+    roll: "05",
+    section: "A",
+  },
+  {
+    name: "Anirban",
+    age: "22",
+    roll: "10",
+    section: "B",
+  },
+];
