@@ -294,3 +294,7 @@ const userDetails = [
     section: "B",
   },
 ];
+userDetails.forEach((item) => {
+  console.log(item.name);
+});
+console.log("\n");
