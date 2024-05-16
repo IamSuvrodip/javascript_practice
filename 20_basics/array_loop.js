@@ -309,3 +309,8 @@ userDetails.forEach((item) => {
   );
 });
 console.log("\n");
+/*
+Name:- Suvro Age:- 23 Roll:- 01 Section:- A
+Name:- Sumit Age:- 20 Roll:- 05 Section:- A
+Name:- Anirban Age:- 22 Roll:- 10 Section:- B
+*/
