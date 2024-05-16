@@ -16,3 +16,6 @@ const myHerros1 = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 const value = myHerros1.filter((item) => item > 4);
 console.log(value);
 console.log("\n");
+/*
+[ 5, 6, 7, 8, 9 ]
+*/
