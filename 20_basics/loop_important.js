@@ -19,3 +19,9 @@ console.log("\n");
 /*
 [ 5, 6, 7, 8, 9 ]
 */
+const value2 = myHerros1.filter((item) => {
+  item > 4;
+});
+console.log(value2);
+console.log("\n");
+// []
