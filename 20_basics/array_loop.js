@@ -303,3 +303,9 @@ Suvro
 Sumit
 Anirban
 */
+userDetails.forEach((item) => {
+  console.log(
+    `Name:- ${item.name} Age:- ${item.age} Roll:- ${item.roll} Section:- ${item.section}`
+  );
+});
+console.log("\n");
