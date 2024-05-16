@@ -30,3 +30,6 @@ const value3 = myHerros1.filter((item) => {
 });
 console.log(value3);
 console.log("\n");
+/*
+[ 7, 8, 9 ]
+*/
