@@ -41,3 +41,8 @@ newNums.forEach((num) => {
     myNums.push(num);
   }
 });
+console.log(myNums);
+console.log("\n");
+/*
+[ 5, 6, 7, 8, 9 ]
+*/
