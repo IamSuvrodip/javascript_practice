@@ -25,3 +25,8 @@ const value2 = myHerros1.filter((item) => {
 console.log(value2);
 console.log("\n");
 // []
+const value3 = myHerros1.filter((item) => {
+  return item > 6;
+});
+console.log(value3);
+console.log("\n");
