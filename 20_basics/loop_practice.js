@@ -48,3 +48,17 @@ const books = [
     author: "Dan Brown",
     publisher: "Doubleday",
   },
+  {
+    title: "The Hobbit",
+    genre: "Fantasy",
+    publication_year: 1937,
+    author: "J. R. R. Tolkien",
+    publisher: "George Allen & Unwin",
+  },
+  {
+    title: "The Diary of a Young Girl",
+    genre: "Biography",
+    publication_year: 1947,
+    author: "Anne Frank",
+    publisher: "Contact Publishing",
+  },
