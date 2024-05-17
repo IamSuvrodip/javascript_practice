@@ -34,3 +34,17 @@ const books = [
     author: "J. D. Salinger",
     publisher: "Little, Brown and Company",
   },
+  {
+    title: "Harry Potter and the Philosopher's Stone",
+    genre: "Fantasy",
+    publication_year: 1997,
+    author: "J. K. Rowling",
+    publisher: "Bloomsbury",
+  },
+  {
+    title: "The Da Vinci Code",
+    genre: "Mystery",
+    publication_year: 2003,
+    author: "Dan Brown",
+    publisher: "Doubleday",
+  },
