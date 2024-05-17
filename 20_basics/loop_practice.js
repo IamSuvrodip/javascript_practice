@@ -20,3 +20,10 @@ const books = [
     author: "George Orwell",
     publisher: "Secker & Warburg",
   },
+  {
+    title: "Pride and Prejudice",
+    genre: "Romance",
+    publication_year: 1813,
+    author: "Jane Austen",
+    publisher: "T. Egerton, Whitehall",
+  },
