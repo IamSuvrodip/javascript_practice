@@ -62,3 +62,11 @@ const books = [
     author: "Anne Frank",
     publisher: "Contact Publishing",
   },
+  {
+    title: "Think and Grow Rich",
+    genre: "Self-help",
+    publication_year: 1937,
+    author: "Napoleon Hill",
+    publisher: "The Ralston Society",
+  },
+];
