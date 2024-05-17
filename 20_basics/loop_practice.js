@@ -70,3 +70,9 @@ const books = [
     publisher: "The Ralston Society",
   },
 ];
+const userBooks = books.filter((bk) => {
+  return bk.publication_year === 1937;
+});
+
+console.log(userBooks);
+console.log("\n");
