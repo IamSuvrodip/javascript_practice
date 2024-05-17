@@ -76,3 +76,22 @@ const userBooks = books.filter((bk) => {
 
 console.log(userBooks);
 console.log("\n");
+/*
+[
+  {
+    title: 'The Hobbit',
+    genre: 'Fantasy',
+    publication_year: 1937,
+    author: 'J. R. R. Tolkien',
+    publisher: 'George Allen & Unwin'
+  },
+  {
+    title: 'Think and Grow Rich',
+    genre: 'Self-help',
+    publication_year: 1937,
+    author: 'Napoleon Hill',
+    publisher: 'The Ralston Society'
+  }
+]
+
+*/
