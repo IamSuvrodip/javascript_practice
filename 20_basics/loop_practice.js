@@ -13,3 +13,10 @@ const books = [
     author: "Harper Lee",
     publisher: "J. B. Lippincott & Co.",
   },
+  {
+    title: "1984",
+    genre: "Science Fiction",
+    publication_year: 1949,
+    author: "George Orwell",
+    publisher: "Secker & Warburg",
+  },
