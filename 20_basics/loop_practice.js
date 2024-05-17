@@ -6,3 +6,10 @@ const books = [
     author: "F. Scott Fitzgerald",
     publisher: "Scribner",
   },
+  {
+    title: "To Kill a Mockingbird",
+    genre: "Fiction",
+    publication_year: 1960,
+    author: "Harper Lee",
+    publisher: "J. B. Lippincott & Co.",
+  },
