@@ -27,3 +27,10 @@ const books = [
     author: "Jane Austen",
     publisher: "T. Egerton, Whitehall",
   },
+  {
+    title: "The Catcher in the Rye",
+    genre: "Fiction",
+    publication_year: 1951,
+    author: "J. D. Salinger",
+    publisher: "Little, Brown and Company",
+  },
