@@ -57,3 +57,6 @@ const shoppingCart = [
     price: 149.99,
   },
 ];
+const Pay = shoppingCart.reduce((acc, item) => acc + item.price, 0);
+console.log(Pay);
+//3459.8999999999987
