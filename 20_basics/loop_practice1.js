@@ -25,3 +25,9 @@ const newNumber1 = myNumbers
   .filter((num) => num >= 40);
 console.log(newNumber1);
 console.log("\n");
+/*
+[
+  41, 51,  61, 71,
+  81, 91, 101
+]
+*/
