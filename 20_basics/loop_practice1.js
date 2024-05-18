@@ -15,3 +15,13 @@ console.log("\n");
 
 /************************ chaining ************************/
 
+const newNumber1 = myNumbers
+  .map((num) => {
+    return num * 10;
+  })
+  .map((num) => {
+    return num + 1;
+  })
+  .filter((num) => num >= 40);
+console.log(newNumber1);
+console.log("\n");
