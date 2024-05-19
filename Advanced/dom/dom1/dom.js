@@ -62,3 +62,9 @@ document.querySelector('input[type="password"]')
 
 
 document.querySelectorAll('p')
+turnGreen.style.backgroundColor = "green"
+'green'
+turnGreen.style.padding = "10px"
+'10px'
+turnGreen.style.borderRadius = "6px"
+'6px
