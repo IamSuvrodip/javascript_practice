@@ -7,3 +7,7 @@ document.getElementById('title').class
 undefined
 document.getElementById('title').className
 'heading'
+document.getElementById('title').getAttribute
+ƒ getAttribute() { [native code] }
+document.getElementById('title').getAttribute('id')
+'title'
