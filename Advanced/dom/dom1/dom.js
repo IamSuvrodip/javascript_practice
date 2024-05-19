@@ -47,3 +47,11 @@ document.getElementsByClassName('heading')
 HTMLCollection [h1#title.heading, title: h1#title.heading]
 
 document.querySelector('p')
+document.querySelector('#title')
+<h1 class=​"heading" id=​"title">​…​</h1>​
+document.querySelector('.heading')
+
+document.querySelector('input[type="password"]')
+
+
+document.querySelectorAll('p')
