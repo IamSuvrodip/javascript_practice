@@ -43,3 +43,7 @@ title.textContent
 
 title.innerHTML
 '\n        DOM LEARNING <span style="display: none">Youtube</span>\n      '
+document.getElementsByClassName('heading')
+HTMLCollection [h1#title.heading, title: h1#title.heading]
+
+document.querySelector('p')
