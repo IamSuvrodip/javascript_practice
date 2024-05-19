@@ -20,3 +20,9 @@ undefined
 document.getElementById('title').getAttribute('class')
 'test
 */
+/*const title = document.getElementById('title')
+undefined
+title
+<h1 class=​"heading" id=​"title">​DOM LEARNING​</h1>​
+title.style.backgroundColor = 'green'
+'green'
