@@ -36,3 +36,10 @@ title.innerHTML
 'DOM LEARNING'
 title.innerText
 'DOM LEARNING'.
+title.innerText
+'DOM LEARNING'
+title.textContent
+'\n        DOM LEARNING Youtube\n 
+
+title.innerHTML
+'\n        DOM LEARNING <span style="display: none">Youtube</span>\n      '
