@@ -50,7 +50,14 @@ document.querySelector('p')
 document.querySelector('#title')
 <h1 class=​"heading" id=​"title">​…​</h1>​
 document.querySelector('.heading')
-
+document.querySelector('ul')
+<ul>​…​</ul>​<li>​…​</li>​::marker​"one"</li>​<li>​…​</li>​<li>​…​</li>​</ul>​
+const myul = document.querySelector('ul')
+undefined
+myul.querySelector('li')
+<li>​…​</li>​
+const turnGreen = myul.querySelector('li')
+undefined
 document.querySelector('input[type="password"]')
 
 
