@@ -15,3 +15,8 @@ document.getElementById('title').getAttribute('class')
 'heading'
 document.getElementById('title').getAttribute('className')
 null
+document.getElementById('title').setAttribute('class','test')
+undefined
+document.getElementById('title').getAttribute('class')
+'test
+*/
