@@ -30,3 +30,9 @@ title.style.padding = "15px"
 '15px'
 title.style.borderRadius = "10px"
 '10px'
+title.textContent
+'DOM LEARNING'
+title.innerHTML
+'DOM LEARNING'
+title.innerText
+'DOM LEARNING'.
