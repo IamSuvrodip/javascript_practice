@@ -26,3 +26,7 @@ title
 <h1 class=​"heading" id=​"title">​DOM LEARNING​</h1>​
 title.style.backgroundColor = 'green'
 'green'
+title.style.padding = "15px"
+'15px'
+title.style.borderRadius = "10px"
+'10px'
