@@ -11,3 +11,7 @@ document.getElementById('title').getAttribute
 ƒ getAttribute() { [native code] }
 document.getElementById('title').getAttribute('id')
 'title'
+document.getElementById('title').getAttribute('class')
+'heading'
+document.getElementById('title').getAttribute('className')
+null
