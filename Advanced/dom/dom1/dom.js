@@ -68,3 +68,7 @@ turnGreen.style.padding = "10px"
 '10px'
 turnGreen.style.borderRadius = "6px"
 '6px
+turnGreen.innerText
+'one'
+turnGreen.innerText = "Five"
+'Five
