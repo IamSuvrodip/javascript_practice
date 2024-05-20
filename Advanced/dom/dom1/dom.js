@@ -90,7 +90,9 @@ mylist.forEach(function (l) {
 document.getElementsByClassName('list-item')
 HTMLCollection(3) [li.list-item, li.list-item, li.list-item]
 const tempClassList = document.getElementsByClassName('list-item')
-
+myConvertedArray.forEach(function (li) {
+    li.style.color = 'orange'
+})
 Array.from(tempClassList) // convert in array
 const myConvertedArray = Array.from(tempClassList)
 undefined
