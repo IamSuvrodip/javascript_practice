@@ -78,3 +78,9 @@ mylist
 NodeList(3) [li, li, li]
 mylist[0].style.color = "green"
 'green'
+const myH1 = document.querySelectorAll('h1')
+undefined
+myH1
+NodeList [h1#title.heading]
+myH1[0].style.color = "green"
+'green'
