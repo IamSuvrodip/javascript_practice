@@ -92,3 +92,7 @@ HTMLCollection(3) [li.list-item, li.list-item, li.list-item]
 const tempClassList = document.getElementsByClassName('list-item')
 
 Array.from(tempClassList) // convert in array
+const myConvertedArray = Array.from(tempClassList)
+undefined
+myConvertedArray
+(3) [li.list-item, li.list-item, li.list-item]
