@@ -72,3 +72,9 @@ turnGreen.innerText
 'one'
 turnGreen.innerText = "Five"
 'Five
+const mylist = document.querySelectorAll('li')
+undefined
+mylist
+NodeList(3) [li, li, li]
+mylist[0].style.color = "green"
+'green'
