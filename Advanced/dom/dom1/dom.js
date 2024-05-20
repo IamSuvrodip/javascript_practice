@@ -87,3 +87,8 @@ myH1[0].style.color = "green"
 mylist.forEach(function (l) {
     l.style.backgroundColor = "pink"
 })
+document.getElementsByClassName('list-item')
+HTMLCollection(3) [li.list-item, li.list-item, li.list-item]
+const tempClassList = document.getElementsByClassName('list-item')
+
+Array.from(tempClassList) // convert in array
