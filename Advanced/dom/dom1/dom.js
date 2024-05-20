@@ -84,3 +84,6 @@ myH1
 NodeList [h1#title.heading]
 myH1[0].style.color = "green"
 'green'
+mylist.forEach(function (l) {
+    l.style.backgroundColor = "pink"
+})
