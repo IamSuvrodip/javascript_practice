@@ -16,3 +16,5 @@ Tuesday
 Wednesday
 Thursday
 */
+parent.children[0].style.color = "orange";
+//<div class="day" style="color: orange;">Monday</div>
