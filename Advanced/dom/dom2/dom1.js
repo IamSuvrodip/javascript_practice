@@ -7,3 +7,6 @@ console.log(parent.children[0]);
 
 console.log(parent.children[0].innerHTML);
 //Monday
+for (let i = 0; i < parent.children.length; i++) {
+  console.log(parent.children[i].innerHTML);
+}
