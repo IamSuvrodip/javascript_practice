@@ -22,3 +22,6 @@ console.log(parent.firstElementChild);
 //<div class="day" style="color: orange;">Monday</div>
 console.log(parent.lastElementChild);
 //<div class="day">Thursday</div>
+const dayOne = document.querySelector(".day");
+console.log(dayOne.innerHTML);
+console.log(dayOne.parentElement.innerHTML);
