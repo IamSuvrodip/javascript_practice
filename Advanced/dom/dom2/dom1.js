@@ -18,3 +18,7 @@ Thursday
 */
 parent.children[0].style.color = "orange";
 //<div class="day" style="color: orange;">Monday</div>
+console.log(parent.firstElementChild);
+//<div class="day" style="color: orange;">Monday</div>
+console.log(parent.lastElementChild);
+//<div class="day">Thursday</div>
