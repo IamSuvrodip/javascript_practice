@@ -32,3 +32,7 @@ console.log(dayOne.parentElement.innerHTML);
       <div class="day">Thursday</div>
     
 */
+console.log(dayOne.nextElementSibling.innerHTML);
+//Tuesday
+
+console.log("NODES:", parent.childNodes);
