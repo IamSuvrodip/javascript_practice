@@ -10,3 +10,9 @@ console.log(parent.children[0].innerHTML);
 for (let i = 0; i < parent.children.length; i++) {
   console.log(parent.children[i].innerHTML);
 }
+/*
+Monday
+Tuesday
+Wednesday
+Thursday
+*/
