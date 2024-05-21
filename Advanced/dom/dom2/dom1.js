@@ -25,3 +25,10 @@ console.log(parent.lastElementChild);
 const dayOne = document.querySelector(".day");
 console.log(dayOne.innerHTML);
 console.log(dayOne.parentElement.innerHTML);
+/*
+ <div class="day" style="color: orange;">Monday</div>
+      <div class="day">Tuesday</div>
+      <div class="day">Wednesday</div>
+      <div class="day">Thursday</div>
+    
+*/
