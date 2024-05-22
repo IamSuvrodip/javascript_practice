@@ -8,3 +8,6 @@ div.setAttribute("title", "Suvrodip");
 div.style.backgroundColor = "green";
 div.style.padding = "12px";
 div.style.borderRadius = "10px";
+//div.innerText = "Suvrodip Chakroborty";
+const addtext = document.createTextNode("Suvrodip Chakroborty");
+div.appendChild(addtext);
