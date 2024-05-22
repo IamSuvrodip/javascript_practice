@@ -11,3 +11,5 @@ div.style.borderRadius = "10px";
 //div.innerText = "Suvrodip Chakroborty";
 const addtext = document.createTextNode("Suvrodip Chakroborty");
 div.appendChild(addtext);
+
+document.body.appendChild(div);
