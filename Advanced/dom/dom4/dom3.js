@@ -25,3 +25,7 @@ secondLang.replaceWith(newli);
 //EDIT
 const firstLang = document.querySelector("li:first-child");
 firstLang.outerHTML = "<li>JAVA SCRIPT</li>";
+
+//REMOVE
+const lastLang = document.querySelector("li:last-child");
+lastLang.remove();
