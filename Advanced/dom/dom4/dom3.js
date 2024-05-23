@@ -21,3 +21,7 @@ secondLang.innerHTML = "HTML";
 const newli = document.createElement("li");
 newli.textContent = "RUBY";
 secondLang.replaceWith(newli);
+
+//EDIT
+const firstLang = document.querySelector("li:first-child");
+firstLang.outerHTML = "<li>JAVA SCRIPT</li>";
