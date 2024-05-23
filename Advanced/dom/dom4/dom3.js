@@ -13,3 +13,11 @@ function addOptiLanguage(langName) {
   li.appendChild(document.createTextNode(langName));
   document.querySelector(".language").appendChild(li);
 }
+addOptiLanguage("SQL");
+
+// EDIT
+const secondLang = document.querySelector("li:nth-child(2)");
+secondLang.innerHTML = "HTML";
+const newli = document.createElement("li");
+newli.textContent = "RUBY";
+secondLang.replaceWith(newli);
