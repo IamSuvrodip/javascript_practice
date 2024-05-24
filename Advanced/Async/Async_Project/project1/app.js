@@ -6,3 +6,6 @@ setTimeout(function () {
 const say_Name = function () {
   console.log("suvrodip");
 };
+const change_Name = function () {
+  document.querySelector("h1").innerHTML = "Rudronil";
+};
