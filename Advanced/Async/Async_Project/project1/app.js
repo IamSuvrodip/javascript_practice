@@ -9,3 +9,9 @@ const say_Name = function () {
 const change_Name = function () {
   document.querySelector("h1").innerHTML = "Rudronil";
 };
+const changeMe = setTimeout(change_Name, 2000);
+
+document.querySelector("#stop").addEventListener("click", () => {
+  clearTimeout(changeMe);
+  console.log("Stopped");
+});
