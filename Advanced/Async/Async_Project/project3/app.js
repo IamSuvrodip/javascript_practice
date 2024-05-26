@@ -16,3 +16,7 @@ const startChangingColor = () => {
     document.body.style.backgroundColor = random_color();
   }
 };
+const stopChangingColor = () => {
+  clearInterval(intervalId);
+  intervalId = null;
+};
