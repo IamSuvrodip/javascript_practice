@@ -6,3 +6,13 @@ const random_color = () => {
   }
   return color;
 };
+let intervalId;
+const startChangingColor = () => {
+  if (!intervalId) {
+    intervalId = setInterval(ChangeBgColor, 1000);
+  }
+
+  function ChangeBgColor() {
+    document.body.style.backgroundColor = random_color();
+  }
+};
