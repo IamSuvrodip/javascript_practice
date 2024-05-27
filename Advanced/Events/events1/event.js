@@ -12,3 +12,10 @@ document.getElementById("india").addEventListener(
   },
   false
 );*/
+//type, timestamp, defaultPrevented
+//target, toElement, srcElement, currentTarget
+//clientX, clientY, screenX, screenY
+// altkey, ctrlkey, shiftkey, keyCode
+
+// event propagation
+// event propagation two type:-    1.event bubbling (false)   2.event capturing(true)
