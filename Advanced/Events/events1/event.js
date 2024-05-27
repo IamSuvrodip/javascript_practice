@@ -42,3 +42,14 @@ document.getElementById("images").addEventListener("click", (event) => {
 document.getElementById("usa").addEventListener("click", (event) => {
   console.log("USA Clicked");
 });
+// same
+// when clicked usa image (usa Clicked \n clicked inside the ul)
+
+// event capturing
+document.getElementById("images").addEventListener(
+  "click",
+  (event) => {
+    //console.log("clicked inside the ul");
+  },
+  true
+);
