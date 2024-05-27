@@ -27,3 +27,10 @@ document.getElementById("india").addEventListener(
   },
   false
 );
+document.getElementById("japan").addEventListener(
+  "click",
+  (event) => {
+    console.log("Japan Clicked");
+  },
+  false
+);
