@@ -69,3 +69,11 @@ document.getElementById("images").addEventListener(
   },
   false
 );
+document.getElementById("brazil").addEventListener(
+  "click",
+  (event) => {
+    console.log("brazil Clicked");
+    event.stopPropagation();
+  },
+  false
+);
