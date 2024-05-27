@@ -53,3 +53,10 @@ document.getElementById("images").addEventListener(
   },
   true
 );
+document.getElementById("germany").addEventListener(
+  "click",
+  (event) => {
+    console.log("germany Clicked");
+  },
+  true
+);
