@@ -34,3 +34,11 @@ document.getElementById("japan").addEventListener(
   },
   false
 );
+// when clicked japan image (Japan Clicked \n clicked inside the ul)
+
+document.getElementById("images").addEventListener("click", (event) => {
+  console.log("clicked inside the ul");
+});
+document.getElementById("usa").addEventListener("click", (event) => {
+  console.log("USA Clicked");
+});
