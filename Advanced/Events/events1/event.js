@@ -19,3 +19,11 @@ document.getElementById("india").addEventListener(
 
 // event propagation
 // event propagation two type:-    1.event bubbling (false)   2.event capturing(true)
+//event bubbling
+/*document.getElementById("images").addEventListener(
+  "click",
+  (event) => {
+    console.log("clicked inside the ul");
+  },
+  false
+);
