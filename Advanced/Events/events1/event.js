@@ -60,3 +60,12 @@ document.getElementById("germany").addEventListener(
   },
   true
 );
+// when clicked germany image (clicked inside the ul \n germany Clicked)
+
+document.getElementById("images").addEventListener(
+  "click",
+  (event) => {
+    console.log("clicked inside the ul");
+  },
+  false
+);
