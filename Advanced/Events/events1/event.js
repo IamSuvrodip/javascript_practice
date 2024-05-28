@@ -77,3 +77,14 @@ document.getElementById("brazil").addEventListener(
   },
   false
 );
+// brazil Clicked
+
+document.getElementById("google").addEventListener(
+  "click",
+  (event) => {
+    event.preventDefault();
+    event.stopPropagation();
+    console.log("google Clicked");
+  },
+  false
+);
