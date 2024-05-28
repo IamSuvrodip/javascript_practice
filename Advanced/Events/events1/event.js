@@ -88,3 +88,8 @@ document.getElementById("google").addEventListener(
   },
   false
 );
+*/
+
+// click on image and image is delete or not shown in browser
+
+/*.
