@@ -102,3 +102,11 @@ document.querySelector("#images").addEventListener("click", (event) => {
   //removeIt.parentNode.removeChild(removeIt);
 });
 */
+document.querySelector("#images").addEventListener("click", (event) => {
+  console.log(event.target.tagName);
+  if (event.target.tagName === "IMG") {
+    console.log(event.target.id);
+    let removeIt = event.target.parentNode;
+    removeIt.remove();
+  }
+});
