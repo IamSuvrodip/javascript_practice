@@ -93,3 +93,12 @@ document.getElementById("google").addEventListener(
 // click on image and image is delete or not shown in browser
 
 /*.
+document.querySelector("#images").addEventListener("click", (event) => {
+  // console.log(event);
+  // console.log(event.target);
+  console.log(event.target.parentNode);
+  let removeIt = event.target.parentNode;
+  removeIt.remove();
+  //removeIt.parentNode.removeChild(removeIt);
+});
+*/
