@@ -2,3 +2,12 @@
   --text-color: #fff;
   --box-color: #2206c6;
 }
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 450px;
+  height: 500px;
+  background-color: var(--box-color);
+  border-radius: 20px;
+}
