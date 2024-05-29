@@ -6,3 +6,29 @@
     <title>API</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+ <body>
+    <!--
+    Value	State	                Description
+    0	    UNSENT	                Client has been created. open() not called yet.
+    1	    OPENED	                open() has been called.
+    2	    HEADERS_RECEIVED        send() has been called, and headers and status are available.
+    3	    LOADING	Downloading;    responseText holds partial data.
+    4	    DONE	                The operation is complete.
+    -->
+    <div class="card">
+      <h1 class="user" id="user">dsfdfsd</h1>
+      <img class="image" src="" id="image" alt="" />
+      <div class="content">
+        <p class="fullname">
+          NAME:
+          <span id="title"></span><span id="first"></span
+          ><span id="last"></span>
+        </p>
+        <p class="gender">GENDER: <span id="gender"></span></p>
+        <p class="age">AGE: <span id="age"></span></p>
+      </div>
+      <button class="btn" id="next">NEXT</button>
+    </div>
+  </body>
+  <script src="api.js"></script>
+</html>
