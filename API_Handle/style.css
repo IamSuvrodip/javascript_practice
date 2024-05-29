@@ -21,3 +21,10 @@ body {
   color: #ffffff;
   font-family: "Poppins", sans-serif;
 }
+.user {
+  font-size: 3em;
+}
+.image {
+  width: 100px;
+  border-radius: 50%;
+}
