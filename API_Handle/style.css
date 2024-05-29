@@ -28,3 +28,12 @@ body {
   width: 100px;
   border-radius: 50%;
 }
+.content {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+#title,
+#first,
+#last {
+  font-weight: 100;
+}
