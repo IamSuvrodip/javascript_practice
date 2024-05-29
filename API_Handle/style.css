@@ -11,3 +11,13 @@
   background-color: var(--box-color);
   border-radius: 20px;
 }
+body {
+  display: flex;
+  justify-content: center; /* horizontally center */
+  align-items: center; /* vertically center */
+  height: 100vh; /* to make the body full height of the viewport */
+  margin: 0; /* remove default margin */
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
