@@ -13,3 +13,10 @@ xhr.onreadystatechange = function () {
 
     const image = document.getElementById("image");
     image.src = data.data.picture.large;
+
+    const title = document.getElementById("title");
+    title.innerText = " " + data.data.name.title;
+    const first = document.getElementById("first");
+    first.innerText = " " + data.data.name.first;
+    const last = document.getElementById("last");
+    last.innerText = " " + data.data.name.last;
