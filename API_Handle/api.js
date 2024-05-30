@@ -27,3 +27,8 @@ xhr.onreadystatechange = function () {
     age.innerText = " " + data.data.dob.age;
   }
 };
+xhr.send();
+
+document.getElementById("next").addEventListener("click", function () {
+  location.reload();
+});
