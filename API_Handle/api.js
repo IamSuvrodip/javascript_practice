@@ -20,3 +20,10 @@ xhr.onreadystatechange = function () {
     first.innerText = " " + data.data.name.first;
     const last = document.getElementById("last");
     last.innerText = " " + data.data.name.last;
+
+    const gender = document.getElementById("gender");
+    gender.innerText = " " + data.data.gender;
+    const age = document.getElementById("age");
+    age.innerText = " " + data.data.dob.age;
+  }
+};
