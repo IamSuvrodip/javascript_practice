@@ -41,3 +41,10 @@ buttons.forEach((button) => {
         h1.style.color = "green";
         h2.style.color = "green";
         break;
+
+      default:
+        h1.style.color = "black";
+        h2.style.color = "black";
+    }
+  });
+});
