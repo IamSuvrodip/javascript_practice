@@ -23,3 +23,9 @@ buttons.forEach((button) => {
     } else {
       body.style.backgroundColor = "white";
     }
+
+    switch (event.target.id) {
+      case "grey":
+        h1.style.color = "pink";
+        h2.style.color = "pink";
+        break;
