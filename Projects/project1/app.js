@@ -37,3 +37,7 @@ buttons.forEach((button) => {
         h1.style.color = "white";
         h2.style.color = "white";
         break;
+      case "yellow":
+        h1.style.color = "green";
+        h2.style.color = "green";
+        break;
