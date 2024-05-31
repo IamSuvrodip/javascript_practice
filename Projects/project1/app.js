@@ -12,3 +12,14 @@ buttons.forEach((button) => {
   button.addEventListener("click", (event) => {
     //console.log(event);
     //console.log(event.target);
+    if (event.target.id === "grey") {
+      body.style.backgroundColor = "grey";
+    } else if (event.target.id === "green") {
+      body.style.backgroundColor = "green";
+    } else if (event.target.id === "blue") {
+      body.style.backgroundColor = "blue";
+    } else if (event.target.id === "yellow") {
+      body.style.backgroundColor = "yellow";
+    } else {
+      body.style.backgroundColor = "white";
+    }
