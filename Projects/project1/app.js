@@ -29,3 +29,11 @@ buttons.forEach((button) => {
         h1.style.color = "pink";
         h2.style.color = "pink";
         break;
+      case "green":
+        h1.style.color = "red";
+        h2.style.color = "red";
+        break;
+      case "blue":
+        h1.style.color = "white";
+        h2.style.color = "white";
+        break;
