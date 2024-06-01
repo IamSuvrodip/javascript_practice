@@ -21,3 +21,16 @@ span {
   transform: scale(0.8);
   cursor: pointer;
 }
+#grey {
+  background: grey;
+}
+
+#green {
+  background: green;
+}
+#blue {
+  background: blue;
+}
+#yellow {
+  background: yellow;
+}
