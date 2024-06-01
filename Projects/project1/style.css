@@ -17,3 +17,7 @@ span {
   border-radius: 14px;
   transition: transform 1s ease;
 }
+.button:hover {
+  transform: scale(0.8);
+  cursor: pointer;
+}
