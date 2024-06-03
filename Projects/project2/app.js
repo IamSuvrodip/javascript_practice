@@ -23,3 +23,7 @@ form.addEventListener("submit", (event) => {
     results.innerHTML = `<span>${bmi}</span>`;
     //console.log(results.innerText);
   }
+  const Underweight = document.querySelector(".Underweight");
+  const Normal = document.querySelector(".Normal");
+  const Overweight = document.querySelector(".Overweight");
+  const imageElement = document.getElementById("myImage");
