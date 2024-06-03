@@ -12,3 +12,7 @@ form.addEventListener("submit", (event) => {
     results.innerHTML = "Not a valid height";
   }
   //
+  else if (weight === "" || weight < 0 || isNaN(weight)) {
+    results.innerHTML = "Not a valid weight";
+  }
+  //
