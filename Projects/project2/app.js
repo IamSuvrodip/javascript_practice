@@ -27,3 +27,11 @@ form.addEventListener("submit", (event) => {
   const Normal = document.querySelector(".Normal");
   const Overweight = document.querySelector(".Overweight");
   const imageElement = document.getElementById("myImage");
+
+  if (results.innerText < 18.6) {
+    Underweight.style.color = "#910b04";
+    results.style.color = "#910b04";
+    Normal.style.color = "black";
+    Overweight.style.color = "black";
+    imageElement.src = "under.svg";
+  }
