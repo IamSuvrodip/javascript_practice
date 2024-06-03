@@ -16,3 +16,10 @@ form.addEventListener("submit", (event) => {
     results.innerHTML = "Not a valid weight";
   }
   //
+  else {
+    const height_meter = height * 0.01;
+    const bmi = (weight / (height_meter * height_meter)).toFixed(2);
+    // show the results
+    results.innerHTML = `<span>${bmi}</span>`;
+    //console.log(results.innerText);
+  }
