@@ -35,3 +35,10 @@ form.addEventListener("submit", (event) => {
     Overweight.style.color = "black";
     imageElement.src = "under.svg";
   }
+ else if (results.innerText <= 24.9) {
+    imageElement.src = "normal.svg";
+    results.style.color = "#026115";
+    Underweight.style.color = "black";
+    Normal.style.color = "#026115";
+    Overweight.style.color = "black";
+  }
