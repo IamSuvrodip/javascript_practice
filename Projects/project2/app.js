@@ -42,3 +42,11 @@ form.addEventListener("submit", (event) => {
     Normal.style.color = "#026115";
     Overweight.style.color = "black";
   }
+ else {
+    Underweight.style.color = "black";
+    Normal.style.color = "black";
+    results.style.color = "#910b04";
+    Overweight.style.color = "#910b04";
+    imageElement.src = "over.svg";
+  }
+});
