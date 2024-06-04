@@ -37,3 +37,6 @@ button {
   border: none;
   margin-left: 84%;
 }
+button:hover {
+  transform: scale(0.96);
+}
