@@ -12,3 +12,6 @@ body {
   align-items: center;
   width: 575px;
   height: 825px;
+  background-color: #797978;
+  border-radius: 20px;
+}
