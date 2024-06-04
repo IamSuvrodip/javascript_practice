@@ -5,3 +5,6 @@ body {
   height: 100vh; /* to make the body full height of the viewport */
   margin: 0; /* remove default margin */
 }
+.container {
+  display: flex;
+  flex-direction: column;
