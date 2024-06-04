@@ -30,3 +30,7 @@ button {
   padding: 10px;
   border-radius: 8px;
   color: white;
+  background-color: #09ab03;
+  text-decoration: none;
+  font-size: 25px;
+  cursor: pointer;
