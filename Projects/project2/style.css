@@ -34,3 +34,6 @@ button {
   text-decoration: none;
   font-size: 25px;
   cursor: pointer;
+  border: none;
+  margin-left: 84%;
+}
