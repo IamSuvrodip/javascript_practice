@@ -93,3 +93,7 @@ button:hover {
     color: #9933ff;
   } /* Purple */
 }
+.guide h3 {
+  margin-top: 70px;
+  animation: blink 5s infinite; /* Change '2s' to adjust the speed */
+}
