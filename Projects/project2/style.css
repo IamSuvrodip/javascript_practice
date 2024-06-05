@@ -57,3 +57,14 @@ button:hover {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   padding: 10px;
 }
+.input_KG {
+  width: 200px;
+  height: 30px;
+  border: none;
+  outline: none;
+  border-radius: 7px;
+  font-size: 25px;
+  color: rgb(1, 152, 253);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding: 10px;
+}
