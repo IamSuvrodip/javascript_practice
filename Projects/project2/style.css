@@ -76,3 +76,7 @@ button:hover {
   font-size: 20px;
   font-family: "Times New Roman", Times, serif;
 }
+@keyframes blink {
+  0% {
+    color: #ff3d33;
+  } /* Red */
