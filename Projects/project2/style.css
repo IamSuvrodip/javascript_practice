@@ -89,3 +89,7 @@ button:hover {
   75% {
     color: #ffcc00;
   } /* Yellow */
+100% {
+    color: #9933ff;
+  } /* Purple */
+}
