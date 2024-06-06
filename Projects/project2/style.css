@@ -117,3 +117,5 @@ h1 {
   border-radius: 20px;
   padding: 10px;
 }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
