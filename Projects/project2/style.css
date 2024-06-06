@@ -124,3 +124,6 @@ input::-webkit-inner-spin-button {
 }
 #myImage {
   margin-left: 250px;
+  margin-top: -37px;
+  width: 25px;
+}
