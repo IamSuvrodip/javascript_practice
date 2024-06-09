@@ -10,3 +10,5 @@ body {
   flex-direction: column;
 }
 #clock {
+  font-size: 40px;
+  background-color: orange;
